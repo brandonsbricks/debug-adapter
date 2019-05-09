@@ -3,6 +3,9 @@ using BRM.DebugAdapter.Interfaces;
 
 namespace BRM.DebugAdapter
 {
+    /// <summary>
+    /// Wrapper for Console.WriteLine with configurable, prepended strings for log severity
+    /// </summary>
     public class ConsoleDebugger : IDebug
     {
         public bool Enabled { get; set; } = true;
@@ -10,8 +13,8 @@ namespace BRM.DebugAdapter
         public string LogPreString = "";
         public string WarningPreString = "~";
         public string ErrorPreString = "!";
+        public string ExceptionPreString = "(>_<)";
         
-
         public void Log(string message)
         {
             if (!Enabled) return;

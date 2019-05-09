@@ -3,6 +3,9 @@ using System.Text.RegularExpressions;
 
 namespace BRM.DebugAdapter.Models
 {
+    /// <summary>
+    /// represents a line in the stack trace string
+    /// </summary>
     public class LineTrace
     {
         /// <summary>
