@@ -15,6 +15,10 @@ namespace BRM.DebugAdapter.Interfaces
         void LogErrorFormat(string message, params object[] args);
         
         void LogException(Exception e);
+        
+        /// <summary>
+        /// disables logging on the local instance associated with this function 
+        /// </summary>
         bool Enabled { get; set; }
     }
 }
