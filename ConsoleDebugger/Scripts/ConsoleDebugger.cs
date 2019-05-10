@@ -54,7 +54,7 @@ namespace BRM.DebugAdapter
         public void LogException(Exception e)
         {
             if (!Enabled) return;
-            Console.WriteLine(e.Message);
+            Console.WriteLine($"{ExceptionPreString}{e.Message}");
         }
     }
 }
