@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("UnityDebugger")]
+[assembly: AssemblyTitle("BRM.DebugAdapter.ConsoleDebugger")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("UnityDebugger")]
+[assembly: AssemblyProduct("BRM.DebugAdapter.ConsoleDebugger")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,7 +19,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("A2B20378-CD20-4B6B-B028-18B1FEC51E7D")]
+[assembly: Guid("E3D45A06-0A5E-42B5-A211-814E5A4C31BC")]
 
 // Version information for an assembly consists of the following four values:
 //
