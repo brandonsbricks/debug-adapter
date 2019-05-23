@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace BRM.DebugAdapter
 {
-    public class UnityDebugger : IDebug
+    public sealed class UnityDebugger : IDebug
     {
         public bool Enabled { get; set; } = true;
 

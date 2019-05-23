@@ -6,7 +6,7 @@ namespace BRM.DebugAdapter
     /// <summary>
     /// Wrapper for Console.WriteLine with configurable, prepended strings for log severity
     /// </summary>
-    public class ConsoleDebugger : IDebug
+    public sealed class ConsoleDebugger : IDebug
     {
         public bool Enabled { get; set; } = true;
         
